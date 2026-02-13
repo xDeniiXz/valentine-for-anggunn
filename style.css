@@ -274,7 +274,6 @@ body {
   padding-top: calc(24px + env(safe-area-inset-top));
   padding-bottom: calc(24px + env(safe-area-inset-bottom));
   overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
 }
 
 .page.active {
@@ -297,12 +296,8 @@ body {
 }
 
 #page5 .page-content {
-  padding-top: clamp(60px, 12vh, 100px);
-  padding-bottom: clamp(60px, 12vh, 100px);
-}
-
-#page5.page {
-  justify-content: flex-start;
+  padding-top: clamp(40px, 8vh, 80px);
+  padding-bottom: clamp(40px, 8vh, 80px);
 }
 
 .glass-card {
