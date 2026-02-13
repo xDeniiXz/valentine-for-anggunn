@@ -15,7 +15,7 @@ const CONFIG = {
   repeatButton: "Ulangi pertanyaan",
   flowerTitle: "Ini kado spesial buat km wkwk ",
   takeBouquetButton: "Terima hadiahnya ",
-  bouquetMessage: "Yeay! Udah jadi milik km, 💕",
+  bouquetMessage: "Yeay! udaa jadi milik km, 💕",
   nextFlowerButton: "Next ",
   collageTitle: "My Beautiful You",
   collageSubtitle:
