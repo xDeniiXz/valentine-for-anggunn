@@ -288,7 +288,7 @@ body {
 }
 
 #page5.page {
-  align-items: center;
+  align-items: flex-start;
 }
 
 .page-content {
@@ -1417,6 +1417,7 @@ body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  min-height: 70svh;
   transition:
     opacity 0.5s ease,
     transform 0.5s ease;
