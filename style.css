@@ -287,6 +287,10 @@ body {
   transform: translateY(-30px) scale(0.98);
 }
 
+#page5.page {
+  align-items: center;
+}
+
 .page-content {
   text-align: center;
   max-width: 520px;
@@ -1065,6 +1069,11 @@ body {
   position: relative;
   z-index: 1;
   animation: heartPump 1.5s ease-in-out infinite;
+}
+
+#finalContent.final-card {
+  margin-top: clamp(28px, 6vh, 64px);
+  margin-bottom: clamp(24px, 6vh, 64px);
 }
 
 @keyframes heartPump {
