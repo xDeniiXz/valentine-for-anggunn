@@ -21,7 +21,7 @@ const CONFIG = {
   collageSubtitle:
     "Sejak km hadir, hal sederhana pun terasa jadi istimewa. Happy Valentine, anggunn. 💕",
   nextCollageButton: "Satu halaman lagi… ",
-  finalTitle: "Happy Valentine, anggunn",
+  finalTitle: "Happy Valentine, anggunn 💞",
   finalMessage: `Makasii yaa udaa hadir, walaupun kita sekarang bukan siapa siapa tapi ga menutup kemungkinan buat selalu deket, saling bantu, dan sharing cerita satu sama lainn, dan aku juga gatau mau bilang ini ke siapa lagii, karna disini cuma adaa km hehe, semoga hari hari km selalu di iringi sama hal kebaikan yaa, semoga km bahagia selalu dan bisa meraih apa yang km mauu, ku berharap kita ga asing yaa apapun badai yang datang semoga kita bisa hadapi nyaa hehe.. Happy Valentine 💕`,
   restartButton: "Restart ",
   copyButton: "Copy Message ",
