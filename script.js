@@ -373,8 +373,6 @@ function initEventListeners() {
   elements.nextToPage5.addEventListener("click", () => navigateTo(5));
   elements.restartBtn.addEventListener("click", handleRestart);
   elements.copyBtn.addEventListener("click", handleCopyMessage);
-  if (elements.musicBtn)
-    elements.musicBtn.addEventListener("click", toggleMusic);
   if (elements.envelopeWrapper)
     elements.envelopeWrapper.addEventListener("click", handleEnvelopeClick);
 }
@@ -416,7 +414,6 @@ function playMusic() {
     .play()
     .then(() => {
       state.musicPlaying = true;
-      if (elements.musicBtn) elements.musicBtn.classList.add("playing");
     })
     .catch(() => {});
 }
@@ -425,10 +422,4 @@ function pauseMusic() {
   if (!elements.bgMusic) return;
   elements.bgMusic.pause();
   state.musicPlaying = false;
-  if (elements.musicBtn) elements.musicBtn.classList.remove("playing");
-}
-
-function toggleMusic() {
-  if (state.musicPlaying) pauseMusic();
-  else playMusic();
 }

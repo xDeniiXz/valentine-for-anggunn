@@ -307,6 +307,7 @@ body {
     height: 200%;
     background: radial-gradient(circle at 30% 30%, rgba(244, 114, 182, 0.15) 0%, transparent 50%);
     pointer-events: none;
+    z-index: 0;
 }
 
 .main-card {
@@ -1011,7 +1012,10 @@ body {
 
 .final-emoji {
     font-size: 4rem;
-    margin-bottom: 16px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
     animation: heartPump 1.5s ease-in-out infinite;
 }
 
@@ -1141,6 +1145,14 @@ body {
     .glass-card {
         padding: 32px 24px;
         border-radius: 28px;
+    }
+    .final-card {
+        padding-top: 50px;
+    }
+    .final-emoji {
+        font-size: 3.8rem;
+        margin-bottom: 22px;
+        margin-top: 8px;
     }
 
     .main-card {
@@ -1316,7 +1328,8 @@ body {
     }
 
     .final-emoji {
-        font-size: 4rem;
+        font-size: 4.5rem;
+        margin-bottom: 24px;
     }
 
     .caption {
